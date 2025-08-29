@@ -16,10 +16,15 @@
     height: 150px;
     background-color: black;
 }
-
 .circulo{
-    flex:  0 80px;
-  text-align: center;
+    width: 140px;
+    height: 210px;
+    text-align: center;
+    background-color: rgb(37, 36, 36);
+    border-radius: 20px;
+    margin: 200px auto 300px;
+    padding: auto;
+    padding-top: 5px;
 }
 .c1{
     width: 60px;
@@ -32,6 +37,7 @@
     justify-content: center;
     margin: 0 auto 8px;
     font-size: 20px;
+    box-shadow: 0 0 20px rgb(255, 16, 16);
 }
 .c2{
     width: 60px;
@@ -44,8 +50,7 @@
     justify-content: center;
     margin: 0 auto 8px;
     font-size: 20px;
-    cursor: pointer;
-    transition: transform 0.2s; 
+    box-shadow: 0 0 20px yellow;
 }
 .c3{
     width: 60px;
@@ -58,6 +63,5 @@
     justify-content: center;
     margin: 0 auto 8px;
     font-size: 20px;
-    cursor: pointer;
-    transition: transform 0.2s; 
+    box-shadow: 0 0 20px rgb(0, 255, 0);
 }
