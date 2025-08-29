@@ -1,6 +1,6 @@
 
 .quadrado {
-    height: 100vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,4 +15,49 @@
     width: 150px;
     height: 150px;
     background-color: black;
+}
+
+.circulo{
+    flex:  0 80px;
+  text-align: center;
+}
+.c1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #ff0000, #e13030);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 8px;
+    font-size: 20px;
+}
+.c2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #ffd000, #ffd902);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s; 
+}
+.c3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #51ff00, #52ff02);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s; 
 }
