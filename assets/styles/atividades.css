@@ -1,8 +1,18 @@
-.Teste {
-    width: 35%;
-    height: 180px;
-    background-color: rgb(105, 14, 14);
-    margin: 0 auto 20px;
-    padding: 20px;
-    margin-top: 30px;
-};
+
+.quadrado {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+.q1 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(180, 31, 31);
+}
+.q2{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
